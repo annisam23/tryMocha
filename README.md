@@ -24,4 +24,14 @@ This command will run Mocha tests according to the configuration specified in th
 npm test
 ```
 
+## Mochawesome Test Reports
 
+After running your tests, you will find the generated reports in the "myReport" folder. This folder contains the following files:
+
+- mochawesome.html: The main HTML report file. Open this file in a web browser to view detailed test results.
+
+- mochawesome.json: A JSON representation of the report data, useful for further processing or integration.
+
+- assets: This folder contains CSS and JavaScript assets used by the HTML report.
+
+- screenshots (if configured): If you have configured your tests to take screenshots, this folder will contain the captured screenshots.
