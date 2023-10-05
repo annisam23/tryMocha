@@ -1,6 +1,4 @@
-# tryMocha
-
-# Mocha Testing Project
+# tryMocha Testing With Simple Project
 
 This is a sample testing project using Mocha, a powerful JavaScript testing framework.
 
@@ -26,13 +24,4 @@ This command will run Mocha tests according to the configuration specified in th
 npm test
 ```
 
-## Project Structure
 
-├── Tests/
-│ └── FirstMochaTest.js
-├── Screenshots/
-├── myReport/
-├── node_modules/
-├── package.json
-├── package-lock.json
-└── README.md
