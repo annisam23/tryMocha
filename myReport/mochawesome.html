@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">tryMocha</h1>
+          <h3 class="report-date">Thursday, October 5 2023, 10:09am</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">14.50<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">1</li>
+                <li class="qs-item summary-tests" title="Tests">3</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">2</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">1</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">14.50<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Suite</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">3</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">2</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct warning">66.7% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="204cd938-ae1d-4a5c-a022-7edff8bfaaa9" class="suite has-tests has-passed has-failed">
+            <h3 class="suite-title">Test Mocha</h3>
+            <h5 class="suite-filename">/Tests/FirstMochaTest.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="204cd938-ae1d-4a5c-a022-7edff8bfaaa9" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="1" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">10.488 s</li>
+                <li class="suite-summary-item tests">3</li>
+                <li class="suite-summary-item passed">2</li>
+                <li class="suite-summary-item failed">1</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#204cd938-ae1d-4a5c-a022-7edff8bfaaa9-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="204cd938-ae1d-4a5c-a022-7edff8bfaaa9-test-list" class="list-group test-list collapse in">
+                    <div id="e1895160-562e-4de1-92dd-9f2a6c6e27c5" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Successfully adds a todo to application
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e1895160-562e-4de1-92dd-9f2a6c6e27c5 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e1895160-562e-4de1-92dd-9f2a6c6e27c5 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">1.767 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-comment">// Navigate to the application</span><br>        <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"https://lambdatest.github.io/sample-todo-app/"</span>);<br>        <span class="hljs-comment">// Add a todo</span><br>        <span class="hljs-keyword">const</span> todoInput = <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"sampletodotext"</span>));<br>        <span class="hljs-keyword">await</span> todoInput.sendKeys(<span class="hljs-string">"Learn Mocha"</span>, Key.RETURN);<br>        <span class="hljs-comment">// Assert</span><br>        <span class="hljs-keyword">const</span> lastTodo = <span class="hljs-keyword">await</span> driver.findElement(By.xpath(<span class="hljs-string">"//li[last()]"</span>)).getText();<br>        lastTodo.should.equal(<span class="hljs-string">"Learn Mocha"</span>);</code></pre>
+          </div>
+        </div>            <div id="3f40ae9f-00e6-43a8-a3f6-61a111ae0c78" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Successfully search in Google
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#3f40ae9f-00e6-43a8-a3f6-61a111ae0c78 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#3f40ae9f-00e6-43a8-a3f6-61a111ae0c78 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">4.988 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">const</span> driver = <span class="hljs-keyword">await</span> <span class="hljs-keyword">new</span> Builder().forBrowser(<span class="hljs-string">'chrome'</span>).build();<br>        <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">'https://google.com'</span>);<br>        <span class="hljs-keyword">const</span> inputGoogle = <span class="hljs-keyword">await</span> driver.findElement(By.className(<span class="hljs-string">'gLFyf'</span>)).sendKeys(<span class="hljs-string">'learn Mocha'</span>);<br>        <span class="hljs-keyword">await</span> driver.quit();</code></pre>
+          </div>
+        </div>            <div id="af0357a1-d7bf-43e7-9b2f-9ca975894680" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Successfully search &#x27;Learn Mochawesome&#x27; in Google
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#af0357a1-d7bf-43e7-9b2f-9ca975894680 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#af0357a1-d7bf-43e7-9b2f-9ca975894680 > .test-code.collapse">Code </button>
+              <span class="test-duration ">3.733 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">TypeError: Cannot read properties of null (reading &#x27;click&#x27;)
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#af0357a1-d7bf-43e7-9b2f-9ca975894680 > .test-error-stack.collapse">Stack </button><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#af0357a1-d7bf-43e7-9b2f-9ca975894680 > .test-error-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">const</span> driver = <span class="hljs-keyword">await</span> <span class="hljs-keyword">new</span> Builder().forBrowser(<span class="hljs-string">'chrome'</span>).build();<br>        <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">'https://google.co.in'</span>);<br>        <span class="hljs-keyword">const</span> inputGoogle = <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">'APjFqb'</span>)).sendKeys(<span class="hljs-string">'learn Mochawesome'</span>);<br>        <span class="hljs-keyword">await</span> inputGoogle.click();<br>        <span class="hljs-keyword">await</span> driver.quit();</code></pre>
+          </div>
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Difference between Expected(+) and Actual(-):
+        Cannot read properties of null (reading 'click')
+        
+        Expected:
+        undefined
+        
+        Actual:
+        undefined
+        
+        Stack:
+        <span class="hljs-built_in">TypeError</span>: Cannot read properties <span class="hljs-keyword">of</span> <span class="hljs-literal">null</span> (reading <span class="hljs-string">'click'</span>)<br>    at Context.&lt;anonymous&gt; (Tests/FirstMochaTest.js:<span class="hljs-number">54</span>:<span class="hljs-number">27</span>)<br>    at process.processTicksAndRejections (node:internal/process/task_queues:<span class="hljs-number">95</span>:<span class="hljs-number">5</span>)</code></pre>
+          </div>
+          <div class="test-error-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1696475345160_test_mocha_successfully_search_learn_mochawesome_in_google.png"></code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2023.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#204cd938-ae1d-4a5c-a022-7edff8bfaaa9" class="nav-menu-item-link has-failures">Test Mocha</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
