@@ -1,6 +1,4 @@
-# tryMocha
-
-# Mocha Testing Project
+# tryMocha Testing With Simple Project
 
 This is a sample testing project using Mocha, a powerful JavaScript testing framework.
 
@@ -28,11 +26,13 @@ npm test
 
 ## Project Structure
 
-├── Tests/
-│ └── FirstMochaTest.js
-├── Screenshots/
-├── myReport/
-├── node_modules/
-├── package.json
-├── package-lock.json
-└── README.md
+project-root/
+  ├── Tests/
+  │    └── FirstMochaTest.js
+  ├── Screenshots/
+  ├── myReports/
+  ├── node_modules/
+  ├── package.json
+  ├── package-lock.json
+  └── README.md
+
