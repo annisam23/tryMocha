@@ -24,15 +24,4 @@ This command will run Mocha tests according to the configuration specified in th
 npm test
 ```
 
-## Project Structure
-
-project-root/
-  ├── Tests/
-  │    └── FirstMochaTest.js
-  ├── Screenshots/
-  ├── myReports/
-  ├── node_modules/
-  ├── package.json
-  ├── package-lock.json
-  └── README.md
 
